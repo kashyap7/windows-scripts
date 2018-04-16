@@ -1,0 +1,10 @@
+Firefox Installation
+- Full installers for Firefox can be found at http://www.mozilla.org/firefox/all/ (or for Firefox ESR at http://www.mozilla.org/firefox/organizations/all/ ).
+- Silent install (always installs into the default location. Use the "Configuration ini file" option below to set the install location and other install options):
+	<path to setup executable> -ms
+
+
+Chrome Installation
+- Download the http://dl.google.com/chrome/install/375.126/chrome_installer.exe
+- Use the switches /silent and  /install like so:
+	chrome_installer.exe /silent /install
